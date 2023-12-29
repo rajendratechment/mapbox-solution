@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.techment.mapbox_android"
-        minSdk 24
+        minSdk 21
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -36,6 +36,8 @@ android {
 }
 
 dependencies {
+    implementation "com.mapbox.navigation:android:2.10.1"
+    implementation "com.mapbox.navigation:ui-dropin:2.10.1"
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
